@@ -1,0 +1,43 @@
+.offers {
+    background-image: url("./img/subscribe-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offers-content {
+    width: 312px;
+}
+.offers-btn {
+    width: 167px;
+}
+.offers-img {
+    background-image: url("./img/porsche-offers.png");
+    height: 180px;
+    width: 400px;
+    background-size: cover;
+    margin-top: 64px;
+    position: relative;
+    left: 13vw;
+}
+@media (min-width:450px) {
+    .offers-img {
+      left: 0;  
+    }
+}
+@media (min-width:970px) {
+    .offers {
+        padding-bottom: 72px;
+        padding-top: 56px;
+    }
+    .offers-btn {
+    width: 174px;
+    }
+    .offers-content {
+        width: 375px;
+    }
+    .offers-img {
+    height: 201px;
+    width: 450px;
+    margin-top: 26px;
+   }
+}

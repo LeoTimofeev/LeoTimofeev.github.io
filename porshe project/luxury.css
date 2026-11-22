@@ -1,0 +1,116 @@
+.luxury {
+    padding-bottom: 48px;
+}
+.luxury-btn {
+    height: 48px;
+    width: 48px;
+    border-radius: 12px;
+    border: none;
+    background-color: #111213;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luxury-buttons {
+    gap: 16px;
+    margin-top: 48px;
+}
+.luxury-btn1 {
+   background-color: #4177DC; 
+    color: #F1F2F3;
+}
+.luxury-btn2 {
+    background-image: url("./img/tesla-logo.png");
+}
+.luxury-btn3 {
+    background-image: url("./img/audi-logo.png");
+}
+.luxury-btn4 {
+    background-image: url("./img/porsche-logo.png");
+}
+.luxury-main {
+    gap: 40px;
+    margin-top: 56px;
+}
+.luxury-box {
+    height: 279px;
+    width: 228px;
+    border-radius: 16px;
+    background-color: #111213;
+    padding-top: 32px;
+    padding-left: 24px;
+    position: relative;
+}
+.luxury-img {
+    width: 180px;
+    height: 95px;
+    margin-top: 24px;
+    margin-bottom: 26px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.luxury-img1 {
+    background-image: url("./img/tesla-img1.png");
+}
+.luxury-img2 {
+    background-image: url("./img/Tesla-m3.png");
+}
+.luxury-img3 {
+    background-image: url("./img/audi-img.png");
+}
+.luxury-img4 {
+    background-image: url("./img/Porsche-boxster.png");
+}
+.luxury-img5 {
+    background-image: url("./img/Porsche-panamera.png");
+}
+.luxury-box-btn {
+    width: 52px;
+    height: 44px;
+    background-color: #4177DC;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    border-radius: 16px 0;
+    background-image: url("./img/luxury-img-btn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luxury-box-absolute {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #374A6D80;
+    filter: blur(60px);
+    position: absolute;
+    top: 50px;
+    left: 24px;
+}
+@media (min-width:420px) {
+    .luxury {
+        padding-bottom: 72px;
+    }
+    .luxury-btn {
+    height: 52px;
+    width: 52px;
+    border-radius: 16px;
+    }
+    .luxury-main {
+    gap: 72px;
+    margin-top: 72px;
+    }
+    .luxury-box {
+    height: 312px;
+    width: 248px;
+    border-radius: 20px;
+    }
+    .luxury-img {
+    margin-top: 32px;
+    margin-bottom: 38px;
+    } 
+    .luxury-box-absolute {
+    top: 66px;
+    left: 34px;
+    }
+}
